@@ -13,6 +13,10 @@ body {
     --font-default: 'JetBrains Mono', monospace;
     --font-monospace-default: 'JetBrains Mono', monospace; 
 
+    .content {
+        font-size: 20px;
+    }
+
     h1[data-note-icon] {
         &:before {
             width: 0;
