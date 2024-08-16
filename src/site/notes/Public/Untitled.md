@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"garden/Untitled.md","permalink":"/garden/untitled/","noteIcon":""}
+{"dg-publish":true,"dg-path":"Untitled.md","permalink":"/untitled/","noteIcon":""}
 ---
 
 public test test

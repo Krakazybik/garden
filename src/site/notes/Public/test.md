@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"garden/test.md","permalink":"/garden/test/","noteIcon":""}
+{"dg-publish":true,"dg-path":"test.md","permalink":"/test/","noteIcon":""}
 ---
 
 hello world pages
