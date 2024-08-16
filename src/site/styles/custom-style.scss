@@ -10,4 +10,42 @@ body {
     //  h1 {
     //   color: black;
     //  }
+    --font-default: 'JetBrains Mono', monospace;
+    --font-monospace-default: 'JetBrains Mono', monospace; 
+
+    h1[data-note-icon] {
+        &:before {
+            width: 0;
+        }
+    }
+
+    .filename {
+        display: flex;
+        align-items: center;
+
+        &:before {
+            margin-right: 4px;
+        }
+    }
+
+    .folder {
+        .inner-folder {
+            padding: 4px 0;
+        }
+
+        & .filelist[x-show="isOpen"] {
+            padding-left: 12px;
+        }
+
+    }
+    .notelink {
+        padding: 0;
+        margin-top: 4px;
+    }
+
+    .notelink.active-note {
+        transform: none;
+    }
 }
+
+:root {}
